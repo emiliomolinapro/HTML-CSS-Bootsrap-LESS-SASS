@@ -1,0 +1,79 @@
+/* SELECTORES */
+
+/* SELECTOR UNIVERSAL */
+*{
+    margin: 0;
+}
+
+/* SELECTOR DE ETIQUETA */
+h1{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+a{
+    font-size: 18px;
+    color: green;
+     text-decoration: none;/* Para quitarle la underline */
+}
+
+footer a{
+    color: red;
+}
+
+/* SELECTOR DE ID */
+#descripcion{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+/* SELECTOR DE CLASE */
+
+.parrafo{
+    font: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* SELECTOR DE ATRIBUTO */
+
+#usuario form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#usuario form *{
+    display: block;
+}
+
+input[type = "text"]{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="submit"]{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* SELECTOR DE HIJOS */
+
+#menu > li > a {
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+}
+
+/* PRIORIDAD, LEE EL CÓDIGO DE ARRIBA A ABAJO
+!important
+*/
+
+

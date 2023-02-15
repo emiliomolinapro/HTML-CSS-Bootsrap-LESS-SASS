@@ -1,0 +1,51 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul li{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul li:first-child{
+    color: purple;
+}
+
+ul li:nth-child(2){
+     color: yellow;
+}
+
+ul li:last-child{
+    color: red
+}
+
+#mi-enlace{
+    font-size: 30px;
+    color: lightsalmon;
+}
+
+#mi-enlace:link{
+    color:palegreen
+}
+
+#mi-enlace:visited{
+    color: darkcyan;
+}
+
+#mi-enlace:hover{
+    color:darkgreen;
+}
+
+#mi-enlace:active{
+    color:yellowgreen;
+    font-size: 300px
+}
+
+#formu{
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#formu:focus{
+    border: 4px dashed red;
+}
