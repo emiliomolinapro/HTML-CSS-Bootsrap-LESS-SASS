@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/*">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <header class="col-md-12 mt-2 ">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Disabled</a>
+                            </li>
+                            <li class="nav-item">
+                                <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                </form>
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </header>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <nav>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="">Inicio</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="">Desarrollo Web</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="">BreadCrumb</a>
+                        </li>
+
+                    </ol>
+                </nav>
+                <!-- SLIDER -->
+
+                <div id="slider" class="carousel slide mb-3" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100"src="https://via.placeholder.com/900x350?text=PRIMERA" alt="First slide">
+
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100"src="https://via.placeholder.com/900x350?text=SEGUNDA" alt="Second slide">
+
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100"src="https://via.placeholder.com/900x350?text=TERCERA" alt="Third slide">
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- NO SLIDER -->
+                <div class="alert alert-danger alert-dismissible">
+                    <strong>Increíble</strong> Te has registrado correctamente
+                    <button type="button" class="close" data-dismiss="alert">
+                        <span>&times;</span>
+                    </button>
+                </div>
+
+                <h2>Componentes de Bootstrap
+                    <span class="badge badge-success">Success</span>
+
+
+
+                </h2>
+            </div>
+
+
+
+        </div>
+
+        <div class="row col-md-8">
+            <div class="card col m-3 p-0">
+                <img src="https://via.placeholder.com/300x200" alt="" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h3 class="card-title">Tarjeta 1</h3>
+                    <p class="card-text">
+                        Entra y aprende bootsrap
+                    </p>
+                    <a href="#" class="btn btn-info">Entrar</a>
+
+                </div>
+            </div>
+            <div class="card col m-3 p-0">
+                <img src="https://via.placeholder.com/300x200" alt="" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h3 class="card-title">Tarjeta 1</h3>
+                    <p class="card-text">
+                        Entra y aprende bootsrap
+                    </p>
+                    <a href="#" class="btn btn-success">Entrar</a>
+
+                </div>
+            </div>
+            <div class="card col m-3 p-0">
+                <img src="https://via.placeholder.com/300x200" alt="" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h3 class="card-title">Tarjeta 1</h3>
+                    <p class="card-text">
+                        Entra y aprende bootsrap
+                    </p>
+                    <a href="#" class="btn btn-warning">Entrar</a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script type="text/javascript" src="jquery/jquery-3.6.3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script src="bootstrap/js/bootstrap.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel({
+                setInterval: 1000
+            });
+        });
+    </script>
+</body>
+
+</html>
