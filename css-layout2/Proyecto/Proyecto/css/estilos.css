@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.contenido {
+    width: 70%;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.super {
+    float: left;
+    width: 70%;
+    height: 258px;
+}
+
+.content2 {
+    text-indent: 10px;
+
+    font-size: 20px;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    border: 3px solid black;
+    padding-block: 10px;
+    margin: 15px;
+}
+
+.cabecera {
+    width: 100%;
+    text-align: center;
+    background-color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.navegar {
+    border: 2px;
+
+
+}
+
+li {
+    float: left;
+    padding-right: 20px;
+
+}
+
+.content3 {
+    text-indent: 10px;
+
+    font-size: 20px;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    border: 3px solid black;
+    padding-block: 10px;
+    margin: 15px;
+}
+
+.barras {
+    float: left;
+    width: 25%;
+    height: 240px;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+    border: 3px solid black;
+
+
+}
+
+.pie{
+    margin: 15px;
+    text-decoration: underline cyan;
+}
